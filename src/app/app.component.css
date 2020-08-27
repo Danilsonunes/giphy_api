@@ -28,7 +28,7 @@ section {
   display: block;
 }
 .fondo {
-  background: url("../../assets/images/fondo.jpg");
+  background: url("/src/assets/images/fondo.jpg");
   background-size: cover;
   background-position: center center;
 }
