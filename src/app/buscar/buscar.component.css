@@ -593,6 +593,13 @@ legend {
 .s01 form .inner-form .input-field.third-wrap .btn-search:hover {
   background: #6d2dd3;
 }
+@media screen and (max-width: 1319px) {
+  .dani {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
 @media screen and (max-width: 992px) {
   .s01 form legend {
@@ -638,12 +645,5 @@ legend {
   }
   .s01 form .inner-form .input-field.third-wrap .btn-search {
     font-size: 16px;
-  }
-}
-@media screen and (max-width: 1319px) {
-  .dani {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 }
